@@ -81,5 +81,41 @@
       { "qid": 4, "voted_option": 1, "voted_date": "2023-01-16T06:13:09.076Z" },
       { "qid": 5, "voted_option": 1, "voted_date": "2023-01-16T06:13:12.385Z" }
     ]
+  },
+  {
+    "uid": "UlK6rf88tXA36JJnAAAB",
+    "username": "user-UlK6rf88tXA36JJnAAAB",
+    "voted_questions": [
+      { "qid": 1, "voted_option": 2, "voted_date": "2023-01-16T06:19:16.739Z" },
+      { "qid": 2, "voted_option": 4, "voted_date": "2023-01-16T06:19:20.720Z" },
+      { "qid": 3, "voted_option": 3, "voted_date": "2023-01-16T06:19:24.699Z" },
+      { "qid": 4, "voted_option": 1, "voted_date": "2023-01-16T06:19:27.716Z" },
+      { "qid": 5, "voted_option": 1, "voted_date": "2023-01-16T06:19:31.192Z" }
+    ]
+  },
+  {
+    "uid": "XSu7aJX7nwk1ivf6AAAb",
+    "username": "user-XSu7aJX7nwk1ivf6AAAb",
+    "voted_questions": [
+      { "qid": 4, "voted_option": 1, "voted_date": "2023-01-16T06:26:39.945Z" },
+      { "qid": 5, "voted_option": 1, "voted_date": "2023-01-16T06:26:43.452Z" },
+      { "qid": 3, "voted_option": 1, "voted_date": "2023-01-16T06:26:46.577Z" }
+    ]
+  },
+  {
+    "uid": "QR9iX6u_vMpYTOaMAAAV",
+    "username": "user-QR9iX6u_vMpYTOaMAAAV",
+    "voted_questions": [
+      { "qid": 3, "voted_option": 1, "voted_date": "2023-01-16T07:37:37.398Z" },
+      { "qid": 4, "voted_option": 3, "voted_date": "2023-01-16T07:37:43.899Z" }
+    ]
+  },
+  {
+    "uid": "L0vijfVpcol-3UvdAABL",
+    "username": "user-L0vijfVpcol-3UvdAABL",
+    "voted_questions": [
+      { "qid": 3, "voted_option": 1, "voted_date": "2023-01-16T07:54:20.432Z" },
+      { "qid": 4, "voted_option": 1, "voted_date": "2023-01-16T07:56:42.208Z" }
+    ]
   }
 ]

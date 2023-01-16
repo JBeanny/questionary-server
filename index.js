@@ -37,20 +37,24 @@ io.on("connection", (socket) => {
   // run every 5s
   schedule.scheduleJob("question-schedule", "*/5 * * * * *", () => {
     let outOfDeadlineTasks = getOutOfDeadlineTasks();
+    let totalOutDated = [];
 
     if (outOfDeadlineTasks.length > 0) {
       outOfDeadlineTasks.forEach((task) => {
+        let totalVote = 0;
         if (task) {
-          let totalVote = 0;
           task.answers.forEach((answer) => (totalVote += answer.chosen));
-
-          socket.emit("notification", {
-            message: `QID: ${task.id} is expired`,
-            description: `Question: ${task.question} with ${totalVote} total votes`,
+          totalOutDated.push({
+            id: task.id,
+            question: task.question,
+            votes: totalVote,
           });
         }
       });
     }
+    socket.emit("notification", {
+      notification: totalOutDated,
+    });
     schedule.cancelJob("question-schedule");
   });
 
@@ -67,7 +71,9 @@ function getOutOfDeadlineTasks() {
   const today = new Date();
 
   const outOfDate = questions.map((question) => {
-    if (question.end_date >= String(today)) {
+    const deadline = new Date(question.end_date);
+
+    if (deadline <= today) {
       return question;
     }
   });
