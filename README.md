@@ -20,10 +20,10 @@
 
 <div style="display:flex; align-items:center; gap: 10px;">
  <img src="https://cdn-icons-png.flaticon.com/512/919/919825.png" style="width:100px; height: 100px; object-fit: contain;"/>
- <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style="width:200px; height: 100px; object-fit: contain; border-radius: 10px; background-color: white; display: flex; justify-content: center; align-items: center;"/>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" style="width:250px; height: 100px; object-fit: contain; border-radius: 10px; background-color: white; display: flex; justify-content: center; align-items: center;"/>
  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png" style="width:200px; height: 100px; object-fit: contain;"/>
  <img src="https://www.vectorlogo.zone/logos/socketio/socketio-ar21.png" style="width:200px; height: 100px; object-fit: contain; border-radius: 10px;"/>
- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" style="width:200px; height: 100px; object-fit: contain; border-radius: 10px;"/>
+ <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/JSON_vector_logo.svg/1200px-JSON_vector_logo.svg.png" style="width:100px; height: 100px; object-fit: contain; border-radius: 10px;"/>
 </div>
 
 # TODO
