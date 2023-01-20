@@ -2,10 +2,10 @@
   "name": "voting-app",
   "version": "1.0.0",
   "description": "voting application",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --ignore data/"
+    "start": "nodemon server.js --ignore data/"
   },
   "author": "Yim Sotharoth",
   "license": "ISC",
@@ -14,7 +14,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^6.8.3",
+    "mongoose": "^6.8.4",
     "node-schedule": "^2.1.1",
     "socket.io": "^4.5.4"
   }

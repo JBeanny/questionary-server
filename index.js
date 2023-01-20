@@ -6,14 +6,10 @@ const bodyParser = require("body-parser");
 const http = require("http");
 const notification = require("./lib/middlewares/notification");
 
-require("dotenv").config();
+// require("dotenv").config();
 
 app.use(cors());
 app.use(bodyParser.json());
-
-app.get("/", (req, res) => {
-  res.send("HELLO FROM VOTING APPLICATION SERVER");
-});
 
 const QUESTION_API = require("./lib/routes/question.routes");
 const OPTION_API = require("./lib/routes/options.routes");
@@ -26,6 +22,8 @@ const server = http.createServer(app);
 //to send notificatin when tasks are out of date
 notification(server);
 
-server.listen(process.env.PORT, () => {
-  console.log(`Server running on port ${process.env.PORT}`);
-});
+// server.listen(process.env.PORT, () => {
+//   console.log(`Server running on port ${process.env.PORT}`);
+// });
+
+module.exports = server;

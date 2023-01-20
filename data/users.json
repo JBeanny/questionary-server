@@ -1,1 +1,35 @@
-[{"uid":"BJ_oOJY_ZPWRxvgSAAAR","username":"user-BJ_oOJY_ZPWRxvgSAAAR","voted_questions":[{"qid":10,"voted_option":1,"voted_date":"2023-01-19T14:45:13.983Z"}]},{"uid":"JTg_9xaB09SFWpklAAAZ","username":"user-JTg_9xaB09SFWpklAAAZ","voted_questions":[{"qid":10,"voted_option":1,"voted_date":"2023-01-19T14:45:18.402Z"}]},{"uid":"G7CQ10hGT2v0dZ7yAAAF","username":"user-G7CQ10hGT2v0dZ7yAAAF","voted_questions":[{"qid":10,"voted_option":1,"voted_date":"2023-01-19T14:47:43.263Z"},{"qid":11,"voted_option":1,"voted_date":"2023-01-20T01:26:35.452Z"}]},{"uid":"sO0Qlls3w5VN9yyuAAAB","username":"user-sO0Qlls3w5VN9yyuAAAB","voted_questions":[{"qid":10,"voted_option":1,"voted_date":"2023-01-19T14:47:47.156Z"}]}]
+[
+  {
+    "uid": "BJ_oOJY_ZPWRxvgSAAAR",
+    "username": "user-BJ_oOJY_ZPWRxvgSAAAR",
+    "voted_questions": [
+      { "qid": 10, "voted_option": 1, "voted_date": "2023-01-19T14:45:13.983Z" }
+    ]
+  },
+  {
+    "uid": "JTg_9xaB09SFWpklAAAZ",
+    "username": "user-JTg_9xaB09SFWpklAAAZ",
+    "voted_questions": [
+      { "qid": 10, "voted_option": 1, "voted_date": "2023-01-19T14:45:18.402Z" }
+    ]
+  },
+  {
+    "uid": "G7CQ10hGT2v0dZ7yAAAF",
+    "username": "user-G7CQ10hGT2v0dZ7yAAAF",
+    "voted_questions": [
+      {
+        "qid": 10,
+        "voted_option": 1,
+        "voted_date": "2023-01-19T14:47:43.263Z"
+      },
+      { "qid": 11, "voted_option": 1, "voted_date": "2023-01-20T01:26:35.452Z" }
+    ]
+  },
+  {
+    "uid": "sO0Qlls3w5VN9yyuAAAB",
+    "username": "user-sO0Qlls3w5VN9yyuAAAB",
+    "voted_questions": [
+      { "qid": 10, "voted_option": 1, "voted_date": "2023-01-19T14:47:47.156Z" }
+    ]
+  }
+]
