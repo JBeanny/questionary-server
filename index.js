@@ -6,24 +6,27 @@ const bodyParser = require("body-parser");
 const http = require("http");
 const notification = require("./lib/middlewares/notification");
 
-// require("dotenv").config();
-
 app.use(cors());
 app.use(bodyParser.json());
 
+// routes path
 const QUESTION_API = require("./lib/routes/question.routes");
 const OPTION_API = require("./lib/routes/options.routes");
 
+// routes
 app.use("/api/v1/questions", QUESTION_API);
 app.use("/api/v1/options", OPTION_API);
+
+app.use((err, req, res, next) => {
+  res.status(err.statusCode || 500).json({
+    status: "Fail",
+    message: err.message,
+  });
+});
 
 const server = http.createServer(app);
 
 //to send notificatin when tasks are out of date
 notification(server);
-
-// server.listen(process.env.PORT, () => {
-//   console.log(`Server running on port ${process.env.PORT}`);
-// });
 
 module.exports = server;
